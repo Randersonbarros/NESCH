@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    margin: 0 auto;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    overflow: hidden;
+    min-width: 500px;
+}
+
+#cabecalho {
+    background: #676CFF;
+    height: 100px;
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+#imagem-cabecalho {
+    height: 100px;
+    width: 40%;
+}
+
+#bloco-lateral {
+    background: #122856;
+    height: 100vh;
+    width: 30%;
+    float: left;
+}
+
+hr {
+    margin: 0 auto;
+    height: 3px;
+    background: white;
+    width: 70%;
+    float: right;
+    border: none;
+}
+
+#container {
+    padding-top: 70px;
+    background: #676CFF;
+    width: 70%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    float: right;
+}
+
+#login {
+    display: flex;
+    background: #122856;
+    width: 30%;
+    height: 340px;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#login form {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.logo {
+    height: auto;
+    width: 65px;
+}
+
+#login input {
+    margin-top: 15px;
+    color: #122856;
+    font-family: fantasy;
+    font-size: 20px;
+    height: 45px;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+    text-align: center;
+}
+
+#login div {
+    align-items: center;
+}
+
+#login div input {
+    width: 80%;
+}
+
+input::placeholder {
+    color: #122856;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+#botao{ 
+    color: #122856;
+    margin-top: 15px;
+    font-family: fantasy;
+    font-size: 20px;
+    height: 45px;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+    text-align: center;
+    width: 80%;
+    margin-left: 12%;
+    cursor: pointer;
+}
+
+#login a {
+    text-decoration: none;
+    color: #fff;
+    padding-top: 25px;
+    font-size: 0.8em;
+    margin-left: 10%;
+}
+
+.icone {
+    height: auto;
+    width: 10%;
+    padding-right: 10px;
+}
